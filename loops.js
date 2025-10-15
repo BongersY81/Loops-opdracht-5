@@ -36,7 +36,9 @@
 // 'INV-0008'
 
 // ==========================================
-
+for (let i = 1; i < 9; i++) {
+    console.log("INV-000" + i);
+}
 // ==========================================
 // Opdracht 4. Schrijf een for-loop die van 9 tot en met 18 loopt en de uren logt.
 // - Bij 10:00 en 14:00 moet de tekst "Koffiepauze!" toegevoegd worden
@@ -111,6 +113,11 @@
 // FizzBuzz
 // etc.
 // ==========================================
-
+for (let i = 1; i <= 100; i++) {
+    if (i % 3) === 0) {
+    console.log("fizz");
+        } else if (i % 5 === 0) {
+        console.log("buzz")
+}
 
 
